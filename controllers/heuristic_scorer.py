@@ -26,14 +26,14 @@ from models.player import Player, Session
 # ---------------------------------------------------------------------------
 
 FLAGS = [
-    ("TTD_CRITICAL",      "Mean TTD < 80 ms across session",             25),
-    ("PRE_AIM_LOCK",      "Mean pre-aim delta < 3° consistently",        20),
-    ("HS_RATE_EXTREME",   "HS rate > 65% over sufficient kills",         20),
-    ("SPRAY_PERFECT",     "Mean spray deviation < 2.5",                  15),
-    ("REACTION_INHUMAN",  "Mean reaction time < 60 ms",                  20),
-    ("KD_ADR_COMBO",      "KD > 2.5 AND ADR > 100 combined",            15),
-    ("CLUTCH_INHUMAN",    "Clutch win rate > 70%",                       10),
-    ("CONSISTENCY_BONUS", "≥4 flags firing in ≥80% of sessions",        20),
+    ("TTD_CRITICAL",      "Mean TTD < 120 ms across session",            25),
+    ("PRE_AIM_LOCK",      "Mean pre-aim delta < 4.5° consistently",      20),
+    ("HS_RATE_EXTREME",   "HS rate > 60% over sufficient kills",         20),
+    ("SPRAY_PERFECT",     "Mean spray deviation < 3.5",                  15),
+    ("REACTION_INHUMAN",  "Mean reaction time < 90 ms",                  20),
+    ("KD_ADR_COMBO",      "KD > 2.0 AND ADR > 95 combined",              15),
+    ("CLUTCH_INHUMAN",    "Clutch win rate > 65%",                       10),
+    ("CONSISTENCY_BONUS", "≥4 flags firing in ≥80% of sessions",         20),
 ]
 
 FLAG_WEIGHTS  = {f[0]: f[2] for f in FLAGS}
@@ -87,8 +87,8 @@ def _session_n_kills(session: Session) -> int:
 def _evaluate_session_flags(session: Session) -> Dict[str, float]:
     """
     Returns {flag_id: intensity} for each flag that fired this session.
-    Intensity is a continuous value in (0, 1] reflecting how far the
-    metric is beyond the flag threshold into the cheater range.
+    Intensity is a continuous interpolation from 0 (at the threshold) 
+    to 1 (at the typical cheater center value).
     """
     fired: Dict[str, float] = {}
 
@@ -98,37 +98,35 @@ def _evaluate_session_flags(session: Session) -> Dict[str, float]:
     avg_reaction = _session_avg_reaction(session)
     n_kills      = _session_n_kills(session)
 
-    # TTD: threshold=80ms, cheater centre=40ms  → intensity ramps 80→5ms
-    if avg_ttd is not None and avg_ttd < 80.0:
-        fired["TTD_CRITICAL"] = np.clip((80.0 - avg_ttd) / 75.0, 0, 1)
+    # TTD: threshold=120ms, cheater centre=40ms  → range=80ms
+    if avg_ttd is not None and avg_ttd < 120.0:
+        fired["TTD_CRITICAL"] = np.clip((120.0 - avg_ttd) / 80.0, 0, 1)
 
-    # Pre-aim: threshold=3°, cheater centre=1.5°
-    if avg_pre_aim is not None and avg_pre_aim < 3.0:
-        fired["PRE_AIM_LOCK"] = np.clip((3.0 - avg_pre_aim) / 2.9, 0, 1)
+    # Pre-aim: threshold=4.5°, cheater centre=1.5° → range=3.0°
+    if avg_pre_aim is not None and avg_pre_aim < 4.5:
+        fired["PRE_AIM_LOCK"] = np.clip((4.5 - avg_pre_aim) / 3.0, 0, 1)
 
-    # HS rate: threshold=0.65, need ≥5 kills
-    if n_kills >= 5 and session.hs_rate > 0.65:
-        fired["HS_RATE_EXTREME"] = np.clip((session.hs_rate - 0.65) / 0.35, 0, 1)
+    # HS rate: threshold=0.60, cheater centre=0.80 → range=0.20
+    if n_kills >= 5 and session.hs_rate > 0.60:
+        fired["HS_RATE_EXTREME"] = np.clip((session.hs_rate - 0.60) / 0.20, 0, 1)
 
-    # Spray: threshold=2.5, cheater centre=1.2
-    if avg_spray is not None and avg_spray < 2.5:
-        fired["SPRAY_PERFECT"] = np.clip((2.5 - avg_spray) / 2.4, 0, 1)
+    # Spray: threshold=3.5, cheater centre=1.2 → range=2.3
+    if avg_spray is not None and avg_spray < 3.5:
+        fired["SPRAY_PERFECT"] = np.clip((3.5 - avg_spray) / 2.3, 0, 1)
 
-    # Reaction: threshold=60ms, cheater centre=35ms
-    if avg_reaction is not None and avg_reaction < 60.0:
-        fired["REACTION_INHUMAN"] = np.clip((60.0 - avg_reaction) / 55.0, 0, 1)
+    # Reaction: threshold=90ms, cheater centre=35ms → range=55ms
+    if avg_reaction is not None and avg_reaction < 90.0:
+        fired["REACTION_INHUMAN"] = np.clip((90.0 - avg_reaction) / 55.0, 0, 1)
 
-    # KD+ADR combo
-    if session.kd_ratio > 2.5 and session.adr > 100.0:
-        intensity = np.clip(
-            ((session.kd_ratio - 2.5) / 3.5 + (session.adr - 100.0) / 60.0) / 2.0,
-            0, 1
-        )
-        fired["KD_ADR_COMBO"] = intensity
+    # KD+ADR combo: KD > 2.0 (centre 3.2, range 1.2) & ADR > 95 (centre 115, range 20)
+    if session.kd_ratio > 2.0 and session.adr > 95.0:
+        kd_intensity = np.clip((session.kd_ratio - 2.0) / 1.2, 0, 1)
+        adr_intensity = np.clip((session.adr - 95.0) / 20.0, 0, 1)
+        fired["KD_ADR_COMBO"] = (kd_intensity + adr_intensity) / 2.0
 
-    # Clutch
-    if session.clutch_win_rate > 0.70:
-        fired["CLUTCH_INHUMAN"] = np.clip((session.clutch_win_rate - 0.70) / 0.30, 0, 1)
+    # Clutch: threshold=0.65, cheater centre=0.85 → range=0.20
+    if session.clutch_win_rate > 0.65:
+        fired["CLUTCH_INHUMAN"] = np.clip((session.clutch_win_rate - 0.65) / 0.20, 0, 1)
 
     return fired
 
@@ -140,28 +138,12 @@ def _evaluate_session_flags(session: Session) -> Dict[str, float]:
 def score_player(player: Player) -> Player:
     """
     Compute the heuristic suspicion score for a player.
-
-    Algorithm
-    ---------
-    1. For each session, compute per-flag intensities.
-    2. For each flag, aggregate across sessions:
-       - fire_rate  = fraction of sessions where the flag triggered
-       - avg_intensity = mean intensity across sessions where it fired
-    3. A flag contributes to the score if fire_rate ≥ 0.3
-       (fires in at least 30% of sessions).
-    4. Contribution = weight × fire_rate × avg_intensity
-       This gives continuous variation: a cheater who always fires a
-       flag at high intensity scores much more than a skilled player
-       who occasionally crosses a threshold with low intensity.
-    5. Consistency bonus added if ≥4 flags fire in ≥80% of sessions.
-    6. Raw score normalised to [0, 100].
     """
     n_sessions = len(player.sessions)
     if n_sessions == 0:
         return player
 
     # Collect per-session flag intensities
-    # structure: {flag_id: [intensity_s1, intensity_s2, ...]}
     flag_intensities: Dict[str, List[float]] = {f[0]: [] for f in FLAGS if f[0] != "CONSISTENCY_BONUS"}
 
     for session in player.sessions:
@@ -170,9 +152,8 @@ def score_player(player: Player) -> Player:
             if flag_id in fired:
                 flag_intensities[flag_id].append(fired[flag_id])
             else:
-                flag_intensities[flag_id].append(0.0)   # did not fire
+                flag_intensities[flag_id].append(0.0)
 
-    # Compute fire rate and average intensity for each flag
     raw_score = 0.0
     active_flags = []
     high_consistency_flags = []
@@ -196,9 +177,8 @@ def score_player(player: Player) -> Player:
         raw_score += FLAG_WEIGHTS["CONSISTENCY_BONUS"] * 0.8
 
     # Normalise to [0, 100]
-    # Denominator chosen so that a perfect cheater (all flags, full intensity,
-    # all sessions) scores ~95-98, not exactly 100 — preserves realism
-    normalised = min(100.0, (raw_score / (MAX_RAW_SCORE * 0.85)) * 100.0)
+    # Denominator reduced to 0.75 to ensure a heavily flagged player hits ~95-100
+    normalised = min(100.0, (raw_score / (MAX_RAW_SCORE * 0.75)) * 100.0)
 
     player.heuristic_score = round(float(normalised), 2)
     player.flags           = active_flags
