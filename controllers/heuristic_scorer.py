@@ -98,25 +98,25 @@ def _evaluate_session_flags(session: Session) -> Dict[str, float]:
     avg_reaction = _session_avg_reaction(session)
     n_kills      = _session_n_kills(session)
 
-    # TTD: threshold=120ms, cheater centre=40ms  → range=80ms
-    if avg_ttd is not None and avg_ttd < 120.0:
-        fired["TTD_CRITICAL"] = np.clip((120.0 - avg_ttd) / 80.0, 0, 1)
+    # TTD: threshold=200ms, cheater centre=40ms  → range=160ms
+    if avg_ttd is not None and avg_ttd < 200.0:
+        fired["TTD_CRITICAL"] = np.clip((200.0 - avg_ttd) / 160.0, 0, 1)
 
-    # Pre-aim: threshold=4.5°, cheater centre=1.5° → range=3.0°
-    if avg_pre_aim is not None and avg_pre_aim < 4.5:
-        fired["PRE_AIM_LOCK"] = np.clip((4.5 - avg_pre_aim) / 3.0, 0, 1)
+    # Pre-aim: threshold=12.0°, cheater centre=1.5° → range=10.5°
+    if avg_pre_aim is not None and avg_pre_aim < 12.0:
+        fired["PRE_AIM_LOCK"] = np.clip((12.0 - avg_pre_aim) / 10.5, 0, 1)
 
-    # HS rate: threshold=0.60, cheater centre=0.80 → range=0.20
-    if n_kills >= 5 and session.hs_rate > 0.60:
-        fired["HS_RATE_EXTREME"] = np.clip((session.hs_rate - 0.60) / 0.20, 0, 1)
+    # HS rate: threshold=0.48, cheater centre=0.80 → range=0.32
+    if n_kills >= 5 and session.hs_rate > 0.48:
+        fired["HS_RATE_EXTREME"] = np.clip((session.hs_rate - 0.48) / 0.32, 0, 1)
 
-    # Spray: threshold=3.5, cheater centre=1.2 → range=2.3
-    if avg_spray is not None and avg_spray < 3.5:
-        fired["SPRAY_PERFECT"] = np.clip((3.5 - avg_spray) / 2.3, 0, 1)
+    # Spray: threshold=7.0, cheater centre=1.2 → range=5.8
+    if avg_spray is not None and avg_spray < 7.0:
+        fired["SPRAY_PERFECT"] = np.clip((7.0 - avg_spray) / 5.8, 0, 1)
 
-    # Reaction: threshold=90ms, cheater centre=35ms → range=55ms
-    if avg_reaction is not None and avg_reaction < 90.0:
-        fired["REACTION_INHUMAN"] = np.clip((90.0 - avg_reaction) / 55.0, 0, 1)
+    # Reaction: threshold=150ms, cheater centre=35ms → range=115ms
+    if avg_reaction is not None and avg_reaction < 150.0:
+        fired["REACTION_INHUMAN"] = np.clip((150.0 - avg_reaction) / 115.0, 0, 1)
 
     # KD+ADR combo: KD > 2.0 (centre 3.2, range 1.2) & ADR > 95 (centre 115, range 20)
     if session.kd_ratio > 2.0 and session.adr > 95.0:

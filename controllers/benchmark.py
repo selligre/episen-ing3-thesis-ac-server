@@ -105,7 +105,7 @@ def run_benchmark(players: List[Player]) -> Dict:
     for p in players:
         if p.suspicion_score >= SUSPICION_THRESHOLD:
             y_pred_3class.append("cheater")
-        elif p.suspicion_score >= 35.0:
+        elif p.suspicion_score >= 20.0:
             y_pred_3class.append("skilled")
         else:
             y_pred_3class.append("casual")
