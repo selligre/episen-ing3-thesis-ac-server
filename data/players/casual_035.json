@@ -1,0 +1,4641 @@
+{
+  "player_id": "casual_035",
+  "profile": "casual",
+  "suspicion_score": 8.1,
+  "heuristic_score": 0.0,
+  "lstm_prob": 0.2024,
+  "flags": [],
+  "sessions": [
+    {
+      "hs_rate": 0.1765,
+      "kd_ratio": 0.575,
+      "adr": 77.52,
+      "clutch_win_rate": 0.0,
+      "utility_efficiency": 14.41,
+      "rounds": [
+        {
+          "utility_dmg": 28.74825884410666,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 339.14550471357904,
+              "pre_aim_delta_deg": 27.29372529331335,
+              "spray_deviation": 17.282870280105016,
+              "reaction_time_ms": 348.09442503757157,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 318.2077999392451,
+              "pre_aim_delta_deg": 14.122590319290774,
+              "spray_deviation": 17.42919927771352,
+              "reaction_time_ms": 536.7146453015743,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 493.70045397511234,
+              "pre_aim_delta_deg": 27.846952836983228,
+              "spray_deviation": 6.974912326511195,
+              "reaction_time_ms": 271.8950991287647,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 14.774648165920933,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 13.265170092277412,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 17.126403095099263,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 409.1760668411851,
+              "pre_aim_delta_deg": 27.159605653250253,
+              "spray_deviation": 22.361034266012286,
+              "reaction_time_ms": 219.36875532606985,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 17.266248627835136,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 26.464808057658086,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 32.95238690347658,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 492.8677064767461,
+              "pre_aim_delta_deg": 19.92436535964884,
+              "spray_deviation": 13.208773383347125,
+              "reaction_time_ms": 402.44913120629974,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 424.0251445301717,
+              "pre_aim_delta_deg": 21.739816440993035,
+              "spray_deviation": 17.909724583230883,
+              "reaction_time_ms": 700.0,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 4.891402090712479,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 462.55536794364224,
+              "pre_aim_delta_deg": 18.915577912944386,
+              "spray_deviation": 19.395281566655193,
+              "reaction_time_ms": 369.3813022810781,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 637.9507543642455,
+              "pre_aim_delta_deg": 21.556532942080075,
+              "spray_deviation": 16.507942143509684,
+              "reaction_time_ms": 498.79782694523965,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 521.0246232017909,
+              "pre_aim_delta_deg": 18.91957679712492,
+              "spray_deviation": 18.667049348418796,
+              "reaction_time_ms": 496.46970714272214,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 26.415668559173326,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 479.4653092524076,
+              "pre_aim_delta_deg": 28.922344049869633,
+              "spray_deviation": 18.179553927762257,
+              "reaction_time_ms": 485.20856658324635,
+              "hit_zone": "legs"
+            },
+            {
+              "ttd_ms": 448.18421722668955,
+              "pre_aim_delta_deg": 14.206503756202636,
+              "spray_deviation": 12.159065103754664,
+              "reaction_time_ms": 244.6141250059606,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 19.21731154316249,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 580.1879099193967,
+              "pre_aim_delta_deg": 23.615628641697505,
+              "spray_deviation": 15.914750711195879,
+              "reaction_time_ms": 480.45860550048303,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 460.4854322551387,
+              "pre_aim_delta_deg": 21.929801611966294,
+              "spray_deviation": 19.530345124929365,
+              "reaction_time_ms": 494.4559245227963,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 485.9815680488109,
+              "pre_aim_delta_deg": 19.62455573893782,
+              "spray_deviation": 7.948437041140787,
+              "reaction_time_ms": 318.9725260691548,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 0.6349370782871802,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 522.2529476488968,
+              "pre_aim_delta_deg": 32.54242521600587,
+              "spray_deviation": 19.095888564340658,
+              "reaction_time_ms": 226.59417604747432,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 502.75395614054247,
+              "pre_aim_delta_deg": 22.006154788468468,
+              "spray_deviation": 15.843272908735823,
+              "reaction_time_ms": 382.20641539909724,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 14.320519753249433,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 640.5319643170401,
+              "pre_aim_delta_deg": 30.072703321092252,
+              "spray_deviation": 25.27930723688787,
+              "reaction_time_ms": 350.90645400586345,
+              "hit_zone": "stomach"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.2667,
+      "kd_ratio": 0.44,
+      "adr": 48.87,
+      "clutch_win_rate": 0.0,
+      "utility_efficiency": 17.96,
+      "rounds": [
+        {
+          "utility_dmg": 16.56183299723806,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 31.755953183775716,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 396.6753336207264,
+              "pre_aim_delta_deg": 5.482587295278975,
+              "spray_deviation": 19.72602503832583,
+              "reaction_time_ms": 270.60466643184577,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 701.6335185820022,
+              "pre_aim_delta_deg": 25.419397330786847,
+              "spray_deviation": 14.978777193350226,
+              "reaction_time_ms": 423.7057725248037,
+              "hit_zone": "legs"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 29.325137288383523,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 570.412258971472,
+              "pre_aim_delta_deg": 9.03279039046609,
+              "spray_deviation": 14.209505688906276,
+              "reaction_time_ms": 366.96785377746636,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 520.0069121216164,
+              "pre_aim_delta_deg": 28.68014190069451,
+              "spray_deviation": 16.85562613577422,
+              "reaction_time_ms": 329.7340753751695,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 631.2902596583739,
+              "pre_aim_delta_deg": 16.470612446720345,
+              "spray_deviation": 15.874034574442486,
+              "reaction_time_ms": 312.52504453618695,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 3.191372689932445,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 24.49137736868419,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 499.79007684535173,
+              "pre_aim_delta_deg": 21.378175517143962,
+              "spray_deviation": 13.685354983994994,
+              "reaction_time_ms": 461.35205324685575,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 368.52217096456707,
+              "pre_aim_delta_deg": 22.72362189001113,
+              "spray_deviation": 25.504847925021934,
+              "reaction_time_ms": 394.05975328438205,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 309.7184605718803,
+              "pre_aim_delta_deg": 32.76402673937115,
+              "spray_deviation": 11.212796953448319,
+              "reaction_time_ms": 197.56647598784974,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 19.68300623469464,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 503.4014034051828,
+              "pre_aim_delta_deg": 23.340560428507192,
+              "spray_deviation": 17.951760378086068,
+              "reaction_time_ms": 426.1270642669993,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 38.115760450527844,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 346.307524913671,
+              "pre_aim_delta_deg": 17.283320244504978,
+              "spray_deviation": 16.01583859161155,
+              "reaction_time_ms": 440.1390643701849,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 20.25229375882547,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 431.6225259757762,
+              "pre_aim_delta_deg": 19.27563808441316,
+              "spray_deviation": 18.78233351562047,
+              "reaction_time_ms": 484.39705398381653,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 500.68097701385744,
+              "pre_aim_delta_deg": 11.693494565523196,
+              "spray_deviation": 25.069682574536746,
+              "reaction_time_ms": 489.787333903951,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 17.452692823097742,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 30.23798950220517,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 3.5039778434761324,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 458.80785650334644,
+              "pre_aim_delta_deg": 20.37062514327205,
+              "spray_deviation": 23.681844503791485,
+              "reaction_time_ms": 387.8965373823581,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 6.792282061888386,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 495.6638474016593,
+              "pre_aim_delta_deg": 9.079858175700146,
+              "spray_deviation": 20.35792522634515,
+              "reaction_time_ms": 502.986503011127,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 3.8810389786853623,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 586.877825171702,
+              "pre_aim_delta_deg": 15.456187582189788,
+              "spray_deviation": 15.406825563712792,
+              "reaction_time_ms": 266.36172250518814,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 24.086259435923097,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.2222,
+      "kd_ratio": 1.094,
+      "adr": 57.87,
+      "clutch_win_rate": 0.1429,
+      "utility_efficiency": 14.88,
+      "rounds": [
+        {
+          "utility_dmg": 20.672997950862335,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 20.509888427339202,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 496.8804343825535,
+              "pre_aim_delta_deg": 22.135682666108174,
+              "spray_deviation": 21.2460763809268,
+              "reaction_time_ms": 481.83476791374005,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 22.97692683130156,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 9.918034302825234,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 0.6194449860542157,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 16.124927192285842,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 486.32205889149634,
+              "pre_aim_delta_deg": 22.624952233369996,
+              "spray_deviation": 24.04829088278757,
+              "reaction_time_ms": 491.09232349550587,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 513.789792898913,
+              "pre_aim_delta_deg": 18.331860744347157,
+              "spray_deviation": 13.726567014211035,
+              "reaction_time_ms": 552.459187084633,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 11.310703757034188,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 277.5215218975436,
+              "pre_aim_delta_deg": 30.686818814626335,
+              "spray_deviation": 16.499774928284147,
+              "reaction_time_ms": 381.84816915101277,
+              "hit_zone": "legs"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 17.26933850839133,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 303.4943726026996,
+              "pre_aim_delta_deg": 22.972790098807458,
+              "spray_deviation": 20.08646981138814,
+              "reaction_time_ms": 464.0661339239708,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 629.9368092938655,
+              "pre_aim_delta_deg": 17.11673919845988,
+              "spray_deviation": 26.46523131630334,
+              "reaction_time_ms": 526.2540093159519,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 22.874399140567014,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 1.3468457010152193,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 11.897945699058138,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 502.9996419772101,
+              "pre_aim_delta_deg": 23.024051097952448,
+              "spray_deviation": 13.353455425333074,
+              "reaction_time_ms": 465.24317181788626,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 28.730384027067487,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 631.2063081492153,
+              "pre_aim_delta_deg": 30.722060117379293,
+              "spray_deviation": 17.652250435020914,
+              "reaction_time_ms": 463.3098602543717,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 12.343808563078209,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 684.6335693481321,
+              "pre_aim_delta_deg": 28.916767761784282,
+              "spray_deviation": 6.352258806886084,
+              "reaction_time_ms": 416.52629355872403,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 26.650841514067587,
+          "clutch_result": true,
+          "opening_duel": true,
+          "kill_events": []
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.3077,
+      "kd_ratio": 0.69,
+      "adr": 59.93,
+      "clutch_win_rate": 0.0,
+      "utility_efficiency": 20.66,
+      "rounds": [
+        {
+          "utility_dmg": 47.557056660022866,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 702.663518634074,
+              "pre_aim_delta_deg": 31.308264042468704,
+              "spray_deviation": 27.707232138498537,
+              "reaction_time_ms": 333.8077969546637,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 6.906627645995432,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 696.1550858028604,
+              "pre_aim_delta_deg": 33.36119523104406,
+              "spray_deviation": 12.167181837919813,
+              "reaction_time_ms": 230.9893371048282,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 13.594205796204125,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 427.9389023193356,
+              "pre_aim_delta_deg": 24.042182445338774,
+              "spray_deviation": 16.414040838489267,
+              "reaction_time_ms": 411.41477546506985,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 469.320150044027,
+              "pre_aim_delta_deg": 27.532458121405732,
+              "spray_deviation": 18.47823223516168,
+              "reaction_time_ms": 441.75367814874716,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 16.539596846582636,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 542.595717870573,
+              "pre_aim_delta_deg": 15.523780498985385,
+              "spray_deviation": 14.501165614495624,
+              "reaction_time_ms": 444.9203246495608,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 14.818374620065244,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 25.625147126207025,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 527.8112938257023,
+              "pre_aim_delta_deg": 24.59834227730789,
+              "spray_deviation": 21.169136777927328,
+              "reaction_time_ms": 120.0,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 409.0347193454104,
+              "pre_aim_delta_deg": 22.731651934984118,
+              "spray_deviation": 18.518265318486158,
+              "reaction_time_ms": 489.58112372141306,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 30.276357718667093,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 398.8863717141292,
+              "pre_aim_delta_deg": 34.971114739160974,
+              "spray_deviation": 13.18445832415648,
+              "reaction_time_ms": 495.9167032147956,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 11.660336725241487,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 400.2807741572538,
+              "pre_aim_delta_deg": 6.155084691827108,
+              "spray_deviation": 14.278446123755778,
+              "reaction_time_ms": 309.39551006872426,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 20.56217096460934,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 3.40327204107162,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 18.88932040436321,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 362.7750091485818,
+              "pre_aim_delta_deg": 17.455338000000122,
+              "spray_deviation": 16.788287681203425,
+              "reaction_time_ms": 489.4940964244339,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 422.5354544230527,
+              "pre_aim_delta_deg": 22.474642941700928,
+              "spray_deviation": 10.569870739961356,
+              "reaction_time_ms": 454.2047526428232,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 11.896840703373652,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 597.7996472992174,
+              "pre_aim_delta_deg": 25.429649417246136,
+              "spray_deviation": 17.177415906143487,
+              "reaction_time_ms": 353.1502071624284,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 46.40351513617425,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 27.260157796316175,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 14.503642162671502,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 465.83458848058666,
+              "pre_aim_delta_deg": 26.997548289711506,
+              "spray_deviation": 19.724388540491336,
+              "reaction_time_ms": 208.12916272203762,
+              "hit_zone": "head"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.2353,
+      "kd_ratio": 0.277,
+      "adr": 21.26,
+      "clutch_win_rate": 0.0,
+      "utility_efficiency": 15.59,
+      "rounds": [
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 432.4811098305547,
+              "pre_aim_delta_deg": 18.49187151448441,
+              "spray_deviation": 15.112784420476778,
+              "reaction_time_ms": 407.6435110768915,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 315.7916598215429,
+              "pre_aim_delta_deg": 24.563729353694082,
+              "spray_deviation": 19.158445782015036,
+              "reaction_time_ms": 511.37660271798205,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 18.454765413373323,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 412.80349394818,
+              "pre_aim_delta_deg": 36.45157935891748,
+              "spray_deviation": 23.93057893100927,
+              "reaction_time_ms": 470.1260427241491,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 505.39012683868947,
+              "pre_aim_delta_deg": 29.458673442657958,
+              "spray_deviation": 18.36481589269909,
+              "reaction_time_ms": 426.4727466770527,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 489.0177312075667,
+              "pre_aim_delta_deg": 26.289015936474748,
+              "spray_deviation": 18.285264539609962,
+              "reaction_time_ms": 276.72055565948835,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 40.2584474240231,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 584.6229313541089,
+              "pre_aim_delta_deg": 23.96492080455323,
+              "spray_deviation": 24.327775676360247,
+              "reaction_time_ms": 399.58126353938854,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 555.7120225717325,
+              "pre_aim_delta_deg": 28.381074628932076,
+              "spray_deviation": 14.832445169723522,
+              "reaction_time_ms": 321.44348037330565,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 494.15383964027956,
+              "pre_aim_delta_deg": 7.701549751398355,
+              "spray_deviation": 27.999228125497787,
+              "reaction_time_ms": 426.71460238133176,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 13.776312260775594,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 411.63332779867517,
+              "pre_aim_delta_deg": 23.83909152226923,
+              "spray_deviation": 20.867312552955546,
+              "reaction_time_ms": 428.2193054217239,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 11.848258200597465,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 9.995154840298326,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 541.643536892124,
+              "pre_aim_delta_deg": 27.139818393283853,
+              "spray_deviation": 19.623658347704037,
+              "reaction_time_ms": 423.92489871238143,
+              "hit_zone": "legs"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 22.327745582078684,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 508.06531749845914,
+              "pre_aim_delta_deg": 24.817229678529916,
+              "spray_deviation": 16.746625551825627,
+              "reaction_time_ms": 399.88227314254794,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 31.562729231546438,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 0.22215287425031605,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 18.351497748501824,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 210.58650814438022,
+              "pre_aim_delta_deg": 15.72763442572366,
+              "spray_deviation": 17.82196680647878,
+              "reaction_time_ms": 296.1276724410901,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 27.77207423497631,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 579.3581529761068,
+              "pre_aim_delta_deg": 34.527849516127915,
+              "spray_deviation": 12.093068635157927,
+              "reaction_time_ms": 362.08111855269726,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 539.7027955628641,
+              "pre_aim_delta_deg": 35.80656434872979,
+              "spray_deviation": 21.712797215435558,
+              "reaction_time_ms": 313.84179498617215,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 559.1472810358568,
+              "pre_aim_delta_deg": 9.155772713823925,
+              "spray_deviation": 15.074950375849653,
+              "reaction_time_ms": 354.69000690954795,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 479.95925443487374,
+              "pre_aim_delta_deg": 20.669926952757073,
+              "spray_deviation": 13.21183988138444,
+              "reaction_time_ms": 421.8289628288386,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 39.31062654097391,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 524.1261407933777,
+              "pre_aim_delta_deg": 19.288232594147043,
+              "spray_deviation": 25.58619172950587,
+              "reaction_time_ms": 368.2334027195572,
+              "hit_zone": "stomach"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.1333,
+      "kd_ratio": 0.636,
+      "adr": 71.66,
+      "clutch_win_rate": 0.1667,
+      "utility_efficiency": 23.44,
+      "rounds": [
+        {
+          "utility_dmg": 37.88355242835172,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 499.67033898425456,
+              "pre_aim_delta_deg": 22.965306908158947,
+              "spray_deviation": 18.235550508497784,
+              "reaction_time_ms": 234.59841818189992,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 624.1410032194821,
+              "pre_aim_delta_deg": 31.733152838358293,
+              "spray_deviation": 17.41572317315816,
+              "reaction_time_ms": 290.04928701269887,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 0.1935043538765875,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 548.0607067166098,
+              "pre_aim_delta_deg": 15.572831045591027,
+              "spray_deviation": 15.056854967852662,
+              "reaction_time_ms": 329.8458580067626,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 19.866115610816806,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 360.9447321968621,
+              "pre_aim_delta_deg": 24.381753121165147,
+              "spray_deviation": 13.012097063906129,
+              "reaction_time_ms": 450.13057284788334,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 496.2536345699969,
+              "pre_aim_delta_deg": 19.361669332869567,
+              "spray_deviation": 13.394081360670947,
+              "reaction_time_ms": 395.1958336358165,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 776.5074361206184,
+              "pre_aim_delta_deg": 18.923313216399027,
+              "spray_deviation": 25.28117212667899,
+              "reaction_time_ms": 341.25152189741465,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 49.85126443744854,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 428.8811304626667,
+              "pre_aim_delta_deg": 24.255263209533165,
+              "spray_deviation": 28.339464261489113,
+              "reaction_time_ms": 351.69257890252334,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 369.1147497344467,
+              "pre_aim_delta_deg": 29.272351065145727,
+              "spray_deviation": 22.20705077767586,
+              "reaction_time_ms": 495.6570087030765,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 647.80686254839,
+              "pre_aim_delta_deg": 32.739001549231325,
+              "spray_deviation": 16.343468710400835,
+              "reaction_time_ms": 424.9835760977155,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 19.52338572144146,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 395.89632618042157,
+              "pre_aim_delta_deg": 16.67852232090415,
+              "spray_deviation": 14.825008388603855,
+              "reaction_time_ms": 538.1644025208377,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 32.516706169711796,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 594.8626615599861,
+              "pre_aim_delta_deg": 16.060283295306554,
+              "spray_deviation": 21.872947389762807,
+              "reaction_time_ms": 469.8109693853913,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 23.033180930532026,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 547.0165974436001,
+              "pre_aim_delta_deg": 25.529404444503495,
+              "spray_deviation": 13.48989669890142,
+              "reaction_time_ms": 371.74135303226547,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 461.0088683049705,
+              "pre_aim_delta_deg": 22.54893542496984,
+              "spray_deviation": 19.45159001297052,
+              "reaction_time_ms": 346.653378827034,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 17.632468923103207,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 614.1201764766032,
+              "pre_aim_delta_deg": 24.933945547319198,
+              "spray_deviation": 21.707148656461854,
+              "reaction_time_ms": 264.14874580770686,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 342.5422788755184,
+              "pre_aim_delta_deg": 16.03229311459588,
+              "spray_deviation": 15.978317073434077,
+              "reaction_time_ms": 240.73058051388378,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 20.03181079060429,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 541.8466254919107,
+              "pre_aim_delta_deg": 12.550212772848854,
+              "spray_deviation": 19.19637774854896,
+              "reaction_time_ms": 286.19957044540496,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 552.0956341080885,
+              "pre_aim_delta_deg": 31.547871407225962,
+              "spray_deviation": 14.86944121419165,
+              "reaction_time_ms": 273.68592998199256,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 23.764891362454055,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 404.90781480441194,
+              "pre_aim_delta_deg": 20.894802994535357,
+              "spray_deviation": 18.226749439334014,
+              "reaction_time_ms": 363.91780361935986,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 14.758214761626737,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 9.77198799670574,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 614.9063948033196,
+              "pre_aim_delta_deg": 32.59954622377469,
+              "spray_deviation": 16.442670265307633,
+              "reaction_time_ms": 368.03665133047895,
+              "hit_zone": "legs"
+            },
+            {
+              "ttd_ms": 558.9615032074507,
+              "pre_aim_delta_deg": 18.283394296473098,
+              "spray_deviation": 19.32600243949662,
+              "reaction_time_ms": 421.7107128128917,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 429.0483714110084,
+              "pre_aim_delta_deg": 27.903460223194507,
+              "spray_deviation": 12.686021575784114,
+              "reaction_time_ms": 430.34657623092676,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 462.58984568959494,
+              "pre_aim_delta_deg": 13.736150851398136,
+              "spray_deviation": 14.149641392484467,
+              "reaction_time_ms": 364.39217761536696,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 21.05766895911777,
+          "clutch_result": true,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 457.32125396640225,
+              "pre_aim_delta_deg": 26.284937751725437,
+              "spray_deviation": 13.533941310810608,
+              "reaction_time_ms": 427.3549704356487,
+              "hit_zone": "legs"
+            },
+            {
+              "ttd_ms": 667.1170638972901,
+              "pre_aim_delta_deg": 12.883568169324045,
+              "spray_deviation": 21.77396761417026,
+              "reaction_time_ms": 234.99716633838224,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 637.4823424195137,
+              "pre_aim_delta_deg": 23.900078738552516,
+              "spray_deviation": 11.884989953522036,
+              "reaction_time_ms": 509.0047946598851,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 43.85673706455441,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 552.4924986365513,
+              "pre_aim_delta_deg": 11.127412609721738,
+              "spray_deviation": 20.254274247258067,
+              "reaction_time_ms": 290.95596488513615,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 561.720095099862,
+              "pre_aim_delta_deg": 22.181559876835937,
+              "spray_deviation": 14.121459297493885,
+              "reaction_time_ms": 218.0694589777599,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 592.0803981241926,
+              "pre_aim_delta_deg": 20.94090100500685,
+              "spray_deviation": 12.12213434801099,
+              "reaction_time_ms": 512.746648314119,
+              "hit_zone": "legs"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 17.880345167986288,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 371.37885758652635,
+              "pre_aim_delta_deg": 27.977035203903153,
+              "spray_deviation": 25.345035028430793,
+              "reaction_time_ms": 529.6296383410596,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 575.2116110981303,
+              "pre_aim_delta_deg": 26.775895820488074,
+              "spray_deviation": 11.919681350915187,
+              "reaction_time_ms": 319.87586771837584,
+              "hit_zone": "chest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.05,
+      "kd_ratio": 0.829,
+      "adr": 73.61,
+      "clutch_win_rate": 0.2,
+      "utility_efficiency": 21.72,
+      "rounds": [
+        {
+          "utility_dmg": 10.315148175469965,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 375.9186699038477,
+              "pre_aim_delta_deg": 40.793757336739155,
+              "spray_deviation": 23.20532371875784,
+              "reaction_time_ms": 160.70120114987245,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 585.063704458362,
+              "pre_aim_delta_deg": 7.157166093130481,
+              "spray_deviation": 17.63370641954581,
+              "reaction_time_ms": 241.52251941731964,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 431.7256961663967,
+              "pre_aim_delta_deg": 23.59934548032903,
+              "spray_deviation": 14.014627264773022,
+              "reaction_time_ms": 355.21126448183156,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 22.642459768844322,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 557.3160340949067,
+              "pre_aim_delta_deg": 12.147870290437659,
+              "spray_deviation": 15.120107549441647,
+              "reaction_time_ms": 392.3330203607616,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 638.0526708971316,
+              "pre_aim_delta_deg": 29.771522386095157,
+              "spray_deviation": 15.09297769481609,
+              "reaction_time_ms": 471.94276759358866,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 511.4334030464831,
+              "pre_aim_delta_deg": 36.34934499636123,
+              "spray_deviation": 24.933385093383755,
+              "reaction_time_ms": 487.0878262545951,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 23.69950813310609,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 530.4422539440475,
+              "pre_aim_delta_deg": 20.19769032616336,
+              "spray_deviation": 17.03415603602003,
+              "reaction_time_ms": 427.7132371856662,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 31.362960087556722,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 327.15969532352926,
+              "pre_aim_delta_deg": 23.23273769663692,
+              "spray_deviation": 13.473911461477375,
+              "reaction_time_ms": 420.6018311975389,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 11.838879741483694,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 26.526919985628226,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 511.2493682451755,
+              "pre_aim_delta_deg": 15.410702487751909,
+              "spray_deviation": 22.39089550195456,
+              "reaction_time_ms": 350.4400776440013,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 29.939956478793867,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 33.509004152624726,
+          "clutch_result": true,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 576.7596904744634,
+              "pre_aim_delta_deg": 21.83527222021476,
+              "spray_deviation": 12.111821988461287,
+              "reaction_time_ms": 469.75774163076903,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 581.7669139197408,
+              "pre_aim_delta_deg": 14.495858049184731,
+              "spray_deviation": 30.389096102448384,
+              "reaction_time_ms": 392.647777932137,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 566.4051076555315,
+              "pre_aim_delta_deg": 16.40769470513584,
+              "spray_deviation": 23.176619422711266,
+              "reaction_time_ms": 367.8568794890827,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 477.4220485647214,
+              "pre_aim_delta_deg": 37.338007332515986,
+              "spray_deviation": 16.450694734212288,
+              "reaction_time_ms": 393.4348223910074,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 557.0283861722838,
+              "pre_aim_delta_deg": 35.404718673072175,
+              "spray_deviation": 24.607312632782715,
+              "reaction_time_ms": 349.05831595575245,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 15.322112277034075,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 421.70868107179194,
+              "pre_aim_delta_deg": 28.836436319534513,
+              "spray_deviation": 10.425940705497425,
+              "reaction_time_ms": 473.7775460926526,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 388.8655326775544,
+              "pre_aim_delta_deg": 10.90882954120765,
+              "spray_deviation": 16.435206507987925,
+              "reaction_time_ms": 391.6240957442759,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 29.157293257556628,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 591.6556388063243,
+              "pre_aim_delta_deg": 28.157558723065918,
+              "spray_deviation": 14.84041497335672,
+              "reaction_time_ms": 490.6654535805181,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 22.487914305641777,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 17.56418527704463,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 387.87031483419304,
+              "pre_aim_delta_deg": 40.13473349564697,
+              "spray_deviation": 14.82207240680216,
+              "reaction_time_ms": 345.64170114521073,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 522.7409410356149,
+              "pre_aim_delta_deg": 20.784999554834307,
+              "spray_deviation": 14.230054451714873,
+              "reaction_time_ms": 479.1295021751255,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 18.162825993365427,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 431.64901381824376,
+              "pre_aim_delta_deg": 24.400317381775988,
+              "spray_deviation": 18.074858551899823,
+              "reaction_time_ms": 225.96882116962186,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 33.21400904519895,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.1333,
+      "kd_ratio": 0.714,
+      "adr": 34.03,
+      "clutch_win_rate": 0.1111,
+      "utility_efficiency": 18.11,
+      "rounds": [
+        {
+          "utility_dmg": 2.256768467125344,
+          "clutch_result": true,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 432.91753709424995,
+              "pre_aim_delta_deg": 8.504362485999762,
+              "spray_deviation": 14.583988112325388,
+              "reaction_time_ms": 143.80879919710932,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 35.1379232005223,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 573.0455724568948,
+              "pre_aim_delta_deg": 30.343455995168206,
+              "spray_deviation": 22.781823349900428,
+              "reaction_time_ms": 328.1065849272329,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 6.476502219491216,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 397.73970119612227,
+              "pre_aim_delta_deg": 24.46776882226856,
+              "spray_deviation": 15.466926887428649,
+              "reaction_time_ms": 529.7407853729226,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 20.472420889933137,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 32.054355296592675,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 260.87476660458475,
+              "pre_aim_delta_deg": 27.11760521982597,
+              "spray_deviation": 17.51379090170451,
+              "reaction_time_ms": 472.2518623752843,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 12.641804840319374,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 472.405956742812,
+              "pre_aim_delta_deg": 33.89240065176363,
+              "spray_deviation": 20.761989586150072,
+              "reaction_time_ms": 497.7903101437317,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 13.873139707235978,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 487.47486611092944,
+              "pre_aim_delta_deg": 31.46339534028496,
+              "spray_deviation": 13.5672254796462,
+              "reaction_time_ms": 351.3402660577096,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 10.419090209233588,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 16.142261623332054,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 442.01258403721374,
+              "pre_aim_delta_deg": 30.731108619630348,
+              "spray_deviation": 13.901236651594449,
+              "reaction_time_ms": 325.0097602562118,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 25.335794947580425,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 11.470455792445536,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 395.01889404820935,
+              "pre_aim_delta_deg": 25.298501668658595,
+              "spray_deviation": 15.943985970008955,
+              "reaction_time_ms": 391.4359384321654,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 41.108234497562115,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 551.8463187702674,
+              "pre_aim_delta_deg": 8.040069933545835,
+              "spray_deviation": 21.82653460735842,
+              "reaction_time_ms": 235.28463031543797,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 569.0683763231181,
+              "pre_aim_delta_deg": 19.50403036868843,
+              "spray_deviation": 11.802711059742972,
+              "reaction_time_ms": 312.58920605060507,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 575.2783743138212,
+              "pre_aim_delta_deg": 29.576920372027747,
+              "spray_deviation": 7.486657160426265,
+              "reaction_time_ms": 343.5121735902441,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 33.74982700955692,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 381.07970566612886,
+              "pre_aim_delta_deg": 22.8599788050004,
+              "spray_deviation": 14.852456902171546,
+              "reaction_time_ms": 298.3780796665602,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 10.585144557236086,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 602.8984373140742,
+              "pre_aim_delta_deg": 22.37430689522359,
+              "spray_deviation": 11.697233776762445,
+              "reaction_time_ms": 370.9455366605417,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 291.1385625409266,
+              "pre_aim_delta_deg": 10.230335386206148,
+              "spray_deviation": 8.64208908808229,
+              "reaction_time_ms": 453.60499328575156,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 482.0347867172322,
+              "pre_aim_delta_deg": 31.91653891085118,
+              "spray_deviation": 22.268002827502098,
+              "reaction_time_ms": 334.87709792863404,
+              "hit_zone": "chest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.2857,
+      "kd_ratio": 1.037,
+      "adr": 45.03,
+      "clutch_win_rate": 0.0,
+      "utility_efficiency": 14.09,
+      "rounds": [
+        {
+          "utility_dmg": 22.803379550145873,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 511.2719456465738,
+              "pre_aim_delta_deg": 34.27209974720829,
+              "spray_deviation": 15.084142244877299,
+              "reaction_time_ms": 426.7120187125347,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 7.052724479946114,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 477.4311449456598,
+              "pre_aim_delta_deg": 21.416421837645792,
+              "spray_deviation": 16.365399626072925,
+              "reaction_time_ms": 146.0019241927757,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 572.7780644324448,
+              "pre_aim_delta_deg": 45.0,
+              "spray_deviation": 5.942731439136834,
+              "reaction_time_ms": 463.94051012981214,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 33.85060829753573,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 444.99563069294294,
+              "pre_aim_delta_deg": 20.94283022943272,
+              "spray_deviation": 19.655471387599533,
+              "reaction_time_ms": 433.16918572344457,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 662.3036027836849,
+              "pre_aim_delta_deg": 19.639780698530988,
+              "spray_deviation": 14.67984046526364,
+              "reaction_time_ms": 371.23864138703783,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 6.806370218481689,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 399.18435001677966,
+              "pre_aim_delta_deg": 12.20724676008034,
+              "spray_deviation": 12.669220849755089,
+              "reaction_time_ms": 208.92878766373423,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 12.135890421967082,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 431.97948492716523,
+              "pre_aim_delta_deg": 26.599247826938054,
+              "spray_deviation": 15.475380921021882,
+              "reaction_time_ms": 450.17616057299057,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 17.33538378007134,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 411.7205141185646,
+              "pre_aim_delta_deg": 39.4640180069774,
+              "spray_deviation": 21.733058254114077,
+              "reaction_time_ms": 331.10116688750605,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 482.3715024732848,
+              "pre_aim_delta_deg": 22.16706587238269,
+              "spray_deviation": 16.070302906770536,
+              "reaction_time_ms": 420.03723612074623,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 693.0496416823029,
+              "pre_aim_delta_deg": 22.996584417005394,
+              "spray_deviation": 17.082679533974463,
+              "reaction_time_ms": 315.9068333782775,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 19.464281192866217,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 530.4035940638041,
+              "pre_aim_delta_deg": 27.566504700273924,
+              "spray_deviation": 25.385972659166022,
+              "reaction_time_ms": 368.3622061131645,
+              "hit_zone": "legs"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 19.250552950680973,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 461.3817421334545,
+              "pre_aim_delta_deg": 26.09065294765511,
+              "spray_deviation": 22.12084765376932,
+              "reaction_time_ms": 455.5229031736475,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 19.322009294048808,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 667.4812692131862,
+              "pre_aim_delta_deg": 27.696581806094276,
+              "spray_deviation": 10.992387343325422,
+              "reaction_time_ms": 285.4247800419404,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 15.091446391007446,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 600.0721491063687,
+              "pre_aim_delta_deg": 19.12042174140876,
+              "spray_deviation": 21.076589640832058,
+              "reaction_time_ms": 418.66856488917495,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 8.31358995125663,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 469.3432982516341,
+              "pre_aim_delta_deg": 19.08880192988304,
+              "spray_deviation": 11.306411297965681,
+              "reaction_time_ms": 429.44972421957686,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 25.671190489167554,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 437.70925545991514,
+              "pre_aim_delta_deg": 13.190660429799157,
+              "spray_deviation": 17.160287286018328,
+              "reaction_time_ms": 319.29072066927705,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 4.242292998636955,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 564.298669623759,
+              "pre_aim_delta_deg": 27.666017204251762,
+              "spray_deviation": 24.72106376895941,
+              "reaction_time_ms": 386.804906222787,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 416.69399832051596,
+              "pre_aim_delta_deg": 37.79948135002544,
+              "spray_deviation": 8.398219242948478,
+              "reaction_time_ms": 268.8081064546945,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 595.7601495411221,
+              "pre_aim_delta_deg": 19.72505961610669,
+              "spray_deviation": 21.715804195289582,
+              "reaction_time_ms": 279.8485705624622,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 497.42513478616655,
+              "pre_aim_delta_deg": 22.507952776216214,
+              "spray_deviation": 15.811762835049674,
+              "reaction_time_ms": 456.3746708524594,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 594.6513049948771,
+              "pre_aim_delta_deg": 30.997084016453783,
+              "spray_deviation": 20.628576284494503,
+              "reaction_time_ms": 346.3750465102549,
+              "hit_zone": "head"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.1875,
+      "kd_ratio": 0.881,
+      "adr": 46.86,
+      "clutch_win_rate": 0.0,
+      "utility_efficiency": 20.31,
+      "rounds": [
+        {
+          "utility_dmg": 4.901478828102913,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 495.6502619519367,
+              "pre_aim_delta_deg": 20.73016416876292,
+              "spray_deviation": 18.027836805191587,
+              "reaction_time_ms": 357.0473614585685,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 37.74915156150233,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 21.521860125503206,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 13.45694811709414,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 578.3263765458759,
+              "pre_aim_delta_deg": 23.512909080097486,
+              "spray_deviation": 24.43532429852697,
+              "reaction_time_ms": 430.94908898982175,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 28.926536946031366,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 576.10698958549,
+              "pre_aim_delta_deg": 23.88018681739541,
+              "spray_deviation": 4.0,
+              "reaction_time_ms": 429.944756558572,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 50.665764018052926,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 10.332217639038165,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 423.0801708059678,
+              "pre_aim_delta_deg": 29.017693990255815,
+              "spray_deviation": 21.089569627182478,
+              "reaction_time_ms": 462.95316361202316,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 26.050320594153554,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 25.816709294830403,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 571.723165395691,
+              "pre_aim_delta_deg": 25.686801898568504,
+              "spray_deviation": 13.993897289389242,
+              "reaction_time_ms": 218.50782526584263,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 448.57104562308086,
+              "pre_aim_delta_deg": 16.560002494739702,
+              "spray_deviation": 4.563083624813164,
+              "reaction_time_ms": 466.19310373939504,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 403.38004082390336,
+              "pre_aim_delta_deg": 27.83904495954132,
+              "spray_deviation": 15.887578686410269,
+              "reaction_time_ms": 513.2910368543253,
+              "hit_zone": "legs"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 6.080433446845882,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 406.5688200123515,
+              "pre_aim_delta_deg": 24.193538559868816,
+              "spray_deviation": 19.242669495059566,
+              "reaction_time_ms": 438.5797593486547,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 20.053336312081107,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 685.6267730908795,
+              "pre_aim_delta_deg": 11.204624784951728,
+              "spray_deviation": 10.993131047139638,
+              "reaction_time_ms": 417.86677374403496,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 10.559737864285506,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 369.9245711174493,
+              "pre_aim_delta_deg": 29.90853042016623,
+              "spray_deviation": 4.0,
+              "reaction_time_ms": 271.4035215560424,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 26.290691583350704,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 490.0698047145369,
+              "pre_aim_delta_deg": 39.057300596062746,
+              "spray_deviation": 12.34752444820524,
+              "reaction_time_ms": 435.6289681496749,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 499.8144157801212,
+              "pre_aim_delta_deg": 31.699065176788167,
+              "spray_deviation": 12.083754119272186,
+              "reaction_time_ms": 310.96613181434526,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 486.5078379772472,
+              "pre_aim_delta_deg": 14.415608160017115,
+              "spray_deviation": 23.760622826381443,
+              "reaction_time_ms": 416.99781389981234,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 12.69608424081903,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 532.1422296850385,
+              "pre_aim_delta_deg": 6.87077644561632,
+              "spray_deviation": 13.162587113044736,
+              "reaction_time_ms": 493.2649052951353,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 351.015631957333,
+              "pre_aim_delta_deg": 24.111655336303766,
+              "spray_deviation": 15.025680103969767,
+              "reaction_time_ms": 423.0950465618896,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 529.8551446932026,
+              "pre_aim_delta_deg": 21.71954925345253,
+              "spray_deviation": 7.770392280016543,
+              "reaction_time_ms": 476.7047199269939,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 9.501697656451828,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.25,
+      "kd_ratio": 0.897,
+      "adr": 64.89,
+      "clutch_win_rate": 0.0,
+      "utility_efficiency": 19.64,
+      "rounds": [
+        {
+          "utility_dmg": 35.097084704253405,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 28.539954885873875,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 430.88166495225266,
+              "pre_aim_delta_deg": 26.013121306320507,
+              "spray_deviation": 19.35076588597109,
+              "reaction_time_ms": 435.4516249898252,
+              "hit_zone": "legs"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 4.835254386272483,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 12.190899092087017,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 590.4616574623044,
+              "pre_aim_delta_deg": 10.101459801131226,
+              "spray_deviation": 20.0131990611794,
+              "reaction_time_ms": 399.33401258859993,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 565.3579428693462,
+              "pre_aim_delta_deg": 17.49995336451309,
+              "spray_deviation": 12.507123774010427,
+              "reaction_time_ms": 403.07943723055706,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 532.2805296611107,
+              "pre_aim_delta_deg": 32.660775321726575,
+              "spray_deviation": 20.147811915426292,
+              "reaction_time_ms": 352.99439461019085,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 584.9971174679789,
+              "pre_aim_delta_deg": 17.84035287121349,
+              "spray_deviation": 13.722983733271409,
+              "reaction_time_ms": 357.0293546947064,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 18.01074892997593,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 337.26797217471454,
+              "pre_aim_delta_deg": 29.04794209830607,
+              "spray_deviation": 13.176672912106959,
+              "reaction_time_ms": 489.5747788719444,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 15.65695483378907,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 656.3905847018524,
+              "pre_aim_delta_deg": 24.206130169681703,
+              "spray_deviation": 17.32442192626527,
+              "reaction_time_ms": 250.67079602766728,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 6.464041285268133,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 464.4390757749113,
+              "pre_aim_delta_deg": 35.238440631525954,
+              "spray_deviation": 14.48244027934775,
+              "reaction_time_ms": 382.3925726973474,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 436.42628046451836,
+              "pre_aim_delta_deg": 34.18158234628348,
+              "spray_deviation": 23.837462830665427,
+              "reaction_time_ms": 410.07558116718343,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 734.8969555277694,
+              "pre_aim_delta_deg": 11.079528950479466,
+              "spray_deviation": 16.468593650429337,
+              "reaction_time_ms": 378.0249176723939,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 16.470082612549756,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 454.5782089879674,
+              "pre_aim_delta_deg": 27.994206026021573,
+              "spray_deviation": 14.503165540018761,
+              "reaction_time_ms": 423.87021741207377,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 33.67352840706655,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 32.23737715871245,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 595.6675843140274,
+              "pre_aim_delta_deg": 19.308537943848005,
+              "spray_deviation": 21.488870343990172,
+              "reaction_time_ms": 464.6469710832344,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 271.3319410306718,
+              "pre_aim_delta_deg": 14.282868076002153,
+              "spray_deviation": 22.838587234112588,
+              "reaction_time_ms": 264.0986680957087,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 11.899486759540281,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 16.060414682236047,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 296.7749655493675,
+              "pre_aim_delta_deg": 22.44204415939586,
+              "spray_deviation": 22.645590305104907,
+              "reaction_time_ms": 424.9906221150774,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 510.6843078167281,
+              "pre_aim_delta_deg": 28.237684376857416,
+              "spray_deviation": 18.601872432209003,
+              "reaction_time_ms": 515.052423291804,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 11.982042877021163,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 34.939298998127384,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 444.0420500122929,
+              "pre_aim_delta_deg": 36.52196925657697,
+              "spray_deviation": 15.426499007396448,
+              "reaction_time_ms": 423.32351163634394,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 16.55319706549864,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": []
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.2632,
+      "kd_ratio": 0.889,
+      "adr": 79.22,
+      "clutch_win_rate": 0.1667,
+      "utility_efficiency": 18.45,
+      "rounds": [
+        {
+          "utility_dmg": 14.104857688037487,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 24.411270345409285,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 354.854115079469,
+              "pre_aim_delta_deg": 13.405556528164958,
+              "spray_deviation": 21.702103905109965,
+              "reaction_time_ms": 400.9939612195145,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 488.23926231940834,
+              "pre_aim_delta_deg": 18.76298670077762,
+              "spray_deviation": 16.0048459919394,
+              "reaction_time_ms": 384.6521676316125,
+              "hit_zone": "legs"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 29.16640998287435,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 17.718680753196622,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 502.0843027692685,
+              "pre_aim_delta_deg": 28.844648464954155,
+              "spray_deviation": 20.88532124470068,
+              "reaction_time_ms": 452.59644833334767,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 12.377192804965343,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 11.644786571480465,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 3.774034216440338,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 634.6869793793489,
+              "pre_aim_delta_deg": 14.484732413481996,
+              "spray_deviation": 13.745763415558386,
+              "reaction_time_ms": 280.92861170603265,
+              "hit_zone": "legs"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 10.152624658666669,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 26.319639197818926,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 469.20376013007126,
+              "pre_aim_delta_deg": 18.822570414135512,
+              "spray_deviation": 18.49304269759969,
+              "reaction_time_ms": 404.75185268678246,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 566.4924234574875,
+              "pre_aim_delta_deg": 23.815975037276324,
+              "spray_deviation": 25.29966639917798,
+              "reaction_time_ms": 422.7188447090963,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 35.688762205498385,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 38.212558031939025,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 601.7324097705554,
+              "pre_aim_delta_deg": 34.23763626951249,
+              "spray_deviation": 23.15892889295428,
+              "reaction_time_ms": 317.59243175245285,
+              "hit_zone": "legs"
+            },
+            {
+              "ttd_ms": 531.6064458173621,
+              "pre_aim_delta_deg": 26.431566774861466,
+              "spray_deviation": 14.572500262576193,
+              "reaction_time_ms": 357.9507210025837,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 715.2250730078193,
+              "pre_aim_delta_deg": 33.73919443252679,
+              "spray_deviation": 21.473727750157217,
+              "reaction_time_ms": 380.0303246211167,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 10.188180383982017,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 617.55971483591,
+              "pre_aim_delta_deg": 18.30086853504045,
+              "spray_deviation": 15.86691464971694,
+              "reaction_time_ms": 282.46819956148846,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 488.2698399038876,
+              "pre_aim_delta_deg": 20.579703548196324,
+              "spray_deviation": 29.559292679614174,
+              "reaction_time_ms": 476.38895034959995,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 377.13288915382725,
+              "pre_aim_delta_deg": 31.156586063905024,
+              "spray_deviation": 24.515754943098493,
+              "reaction_time_ms": 432.92368360973137,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 4.9872495546786055,
+          "clutch_result": true,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 415.491969426677,
+              "pre_aim_delta_deg": 27.953744233908285,
+              "spray_deviation": 12.329976454482438,
+              "reaction_time_ms": 264.06393324835204,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 508.4586173414838,
+              "pre_aim_delta_deg": 28.23448656629098,
+              "spray_deviation": 25.853003224149752,
+              "reaction_time_ms": 401.3002225021273,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 9.35041257759681,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 436.26972489577327,
+              "pre_aim_delta_deg": 24.939107805462832,
+              "spray_deviation": 17.19812340950152,
+              "reaction_time_ms": 445.4023918958005,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 405.4396104832918,
+              "pre_aim_delta_deg": 9.77979882050432,
+              "spray_deviation": 13.473588042387739,
+              "reaction_time_ms": 189.29333613468248,
+              "hit_zone": "legs"
+            },
+            {
+              "ttd_ms": 502.6003965129956,
+              "pre_aim_delta_deg": 13.346550985910962,
+              "spray_deviation": 20.29723173309905,
+              "reaction_time_ms": 395.5288270677348,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 28.645627134693235,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 491.33891010126115,
+              "pre_aim_delta_deg": 21.28855735718328,
+              "spray_deviation": 27.931626443017866,
+              "reaction_time_ms": 218.77210653031221,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 485.7344106729926,
+              "pre_aim_delta_deg": 24.47409249538999,
+              "spray_deviation": 7.349930917936026,
+              "reaction_time_ms": 484.5935077630293,
+              "hit_zone": "head"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.1667,
+      "kd_ratio": 0.674,
+      "adr": 42.77,
+      "clutch_win_rate": 0.2857,
+      "utility_efficiency": 20.31,
+      "rounds": [
+        {
+          "utility_dmg": 38.3145151269603,
+          "clutch_result": true,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 32.76466057006732,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 27.57452039454638,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 15.519618003836774,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 616.1203731230944,
+              "pre_aim_delta_deg": 39.08630780340357,
+              "spray_deviation": 13.852947249448444,
+              "reaction_time_ms": 406.4052547947566,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 620.4031683606368,
+              "pre_aim_delta_deg": 29.583561505202567,
+              "spray_deviation": 26.222247296128412,
+              "reaction_time_ms": 428.8778057109758,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 409.0716408995246,
+              "pre_aim_delta_deg": 25.297376565835723,
+              "spray_deviation": 29.27780516968893,
+              "reaction_time_ms": 326.5921323244654,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 22.456645962491663,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 421.10841821344366,
+              "pre_aim_delta_deg": 11.152296197325732,
+              "spray_deviation": 15.259893988267253,
+              "reaction_time_ms": 421.67780439389054,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 488.3616332734291,
+              "pre_aim_delta_deg": 17.41210157134313,
+              "spray_deviation": 15.959489076742187,
+              "reaction_time_ms": 317.44295848547966,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 19.24284490887912,
+          "clutch_result": true,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 34.975202718918005,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 13.096369222018716,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 582.7138886655766,
+              "pre_aim_delta_deg": 12.979384686022003,
+              "spray_deviation": 18.797634730697535,
+              "reaction_time_ms": 317.4097865124871,
+              "hit_zone": "legs"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 6.58052990313559,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 479.6723184090845,
+              "pre_aim_delta_deg": 17.82138304845736,
+              "spray_deviation": 13.082954505844537,
+              "reaction_time_ms": 386.13894347260765,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 423.0995597170201,
+              "pre_aim_delta_deg": 4.529550938190301,
+              "spray_deviation": 20.03740495372658,
+              "reaction_time_ms": 356.95915688924424,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 15.543030284155709,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 418.14195241503006,
+              "pre_aim_delta_deg": 28.63777777186088,
+              "spray_deviation": 14.704960310956265,
+              "reaction_time_ms": 483.72699629932885,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 559.1364775066121,
+              "pre_aim_delta_deg": 15.126724245335836,
+              "spray_deviation": 13.83239254619355,
+              "reaction_time_ms": 399.7277925653825,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 26.606259559514967,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 544.5170822562309,
+              "pre_aim_delta_deg": 27.60093145198064,
+              "spray_deviation": 32.54483546640745,
+              "reaction_time_ms": 436.55555589828066,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 15.12422725426223,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 436.4411719105143,
+              "pre_aim_delta_deg": 21.80281363250799,
+              "spray_deviation": 11.40041232029906,
+              "reaction_time_ms": 218.00510500872045,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 449.03325289038054,
+              "pre_aim_delta_deg": 33.195842667767906,
+              "spray_deviation": 16.960951607987294,
+              "reaction_time_ms": 460.01314618231675,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 465.56594052253087,
+              "pre_aim_delta_deg": 16.154496888464315,
+              "spray_deviation": 10.8919451344193,
+              "reaction_time_ms": 225.96812503461067,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 2.8446139850125256,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 33.96360346285345,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 498.6289793957354,
+              "pre_aim_delta_deg": 15.363532788724257,
+              "spray_deviation": 24.818578420703204,
+              "reaction_time_ms": 553.4505981705839,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 459.40286385077945,
+              "pre_aim_delta_deg": 19.812636170540163,
+              "spray_deviation": 20.299174893178982,
+              "reaction_time_ms": 418.0275700315523,
+              "hit_zone": "legs"
+            },
+            {
+              "ttd_ms": 460.7530751245502,
+              "pre_aim_delta_deg": 11.819261458027428,
+              "spray_deviation": 13.257877020877892,
+              "reaction_time_ms": 406.4405944581567,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 420.5136935739681,
+              "pre_aim_delta_deg": 29.033184210114783,
+              "spray_deviation": 15.426929763572831,
+              "reaction_time_ms": 376.19564766032806,
+              "hit_zone": "chest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.2174,
+      "kd_ratio": 1.041,
+      "adr": 56.59,
+      "clutch_win_rate": 0.1667,
+      "utility_efficiency": 22.3,
+      "rounds": [
+        {
+          "utility_dmg": 37.929942671251425,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 592.909993493378,
+              "pre_aim_delta_deg": 33.574163728331484,
+              "spray_deviation": 9.511664412850077,
+              "reaction_time_ms": 294.46016560293066,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 26.0061169121112,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 551.8838286032598,
+              "pre_aim_delta_deg": 5.754952663505879,
+              "spray_deviation": 21.26429126911673,
+              "reaction_time_ms": 368.3050221198412,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 571.9401489260042,
+              "pre_aim_delta_deg": 23.40256078728843,
+              "spray_deviation": 13.986592433451658,
+              "reaction_time_ms": 278.9537140842049,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 230.2676048575956,
+              "pre_aim_delta_deg": 18.0920860781475,
+              "spray_deviation": 18.739392905088163,
+              "reaction_time_ms": 219.67482177794923,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 23.152301369497902,
+          "clutch_result": true,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 505.14290092863257,
+              "pre_aim_delta_deg": 23.143785560963615,
+              "spray_deviation": 16.308525302757936,
+              "reaction_time_ms": 372.77841612710887,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 24.35123023319463,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 23.401575606439327,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 12.122275431156249,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 443.08563014493575,
+              "pre_aim_delta_deg": 33.15424453381612,
+              "spray_deviation": 12.642445335839877,
+              "reaction_time_ms": 374.5602945396419,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 378.7384042844759,
+              "pre_aim_delta_deg": 27.1448412681626,
+              "spray_deviation": 20.9103240556357,
+              "reaction_time_ms": 214.1764611225979,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 26.531532875491187,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 531.243767407593,
+              "pre_aim_delta_deg": 18.02256998680033,
+              "spray_deviation": 21.03552895644519,
+              "reaction_time_ms": 172.322559139592,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 28.533969188831446,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 19.265104941024706,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 625.194871865426,
+              "pre_aim_delta_deg": 26.787963714184993,
+              "spray_deviation": 18.07408246554453,
+              "reaction_time_ms": 380.60326078967097,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 302.85853607747316,
+              "pre_aim_delta_deg": 21.51935497356093,
+              "spray_deviation": 14.457693762088493,
+              "reaction_time_ms": 413.01610464871806,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 584.5759520705516,
+              "pre_aim_delta_deg": 32.670503055277,
+              "spray_deviation": 11.832883368820657,
+              "reaction_time_ms": 424.3390388326412,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 315.5878844282993,
+              "pre_aim_delta_deg": 26.48780864067599,
+              "spray_deviation": 18.468229781922513,
+              "reaction_time_ms": 431.3139828494292,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 8.310786363242556,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 416.54877490593316,
+              "pre_aim_delta_deg": 21.98872185456559,
+              "spray_deviation": 18.02355858049137,
+              "reaction_time_ms": 315.6998691390455,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 12.440850404940168,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 439.7361264063273,
+              "pre_aim_delta_deg": 27.050866170303,
+              "spray_deviation": 15.108100834886313,
+              "reaction_time_ms": 455.5487011098842,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 402.46360929205935,
+              "pre_aim_delta_deg": 30.854131348776633,
+              "spray_deviation": 20.346962996504562,
+              "reaction_time_ms": 264.389443225394,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 28.40122460806767,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 530.2706472469847,
+              "pre_aim_delta_deg": 23.57141230516887,
+              "spray_deviation": 19.11953019899914,
+              "reaction_time_ms": 328.4392897014055,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 473.88170677827446,
+              "pre_aim_delta_deg": 28.384933112865056,
+              "spray_deviation": 17.8692817527185,
+              "reaction_time_ms": 425.6796190723047,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 673.6273384116919,
+              "pre_aim_delta_deg": 30.28119559962188,
+              "spray_deviation": 24.584345711456997,
+              "reaction_time_ms": 366.0236835581252,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 28.795144506251557,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 397.93602722118715,
+              "pre_aim_delta_deg": 16.003565554838517,
+              "spray_deviation": 16.48300986132457,
+              "reaction_time_ms": 431.1486170488112,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 26.134342559477332,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 570.3799872966194,
+              "pre_aim_delta_deg": 23.126463890566296,
+              "spray_deviation": 24.98041678144024,
+              "reaction_time_ms": 484.73264851943014,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 586.5931762683488,
+              "pre_aim_delta_deg": 24.022830836114878,
+              "spray_deviation": 19.935034193147132,
+              "reaction_time_ms": 321.7580768949923,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 459.73001023780614,
+              "pre_aim_delta_deg": 16.77527248451157,
+              "spray_deviation": 18.37112830598371,
+              "reaction_time_ms": 446.01473380459856,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 9.134622845397573,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 408.7686538421894,
+              "pre_aim_delta_deg": 22.019943820529377,
+              "spray_deviation": 4.4455629278879485,
+              "reaction_time_ms": 495.3155765226473,
+              "hit_zone": "chest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.1176,
+      "kd_ratio": 1.188,
+      "adr": 45.51,
+      "clutch_win_rate": 0.0,
+      "utility_efficiency": 25.93,
+      "rounds": [
+        {
+          "utility_dmg": 44.87407413207636,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 410.77056760670973,
+              "pre_aim_delta_deg": 27.88350076216549,
+              "spray_deviation": 21.88336256834389,
+              "reaction_time_ms": 375.0938141887067,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 12.816699611871256,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 254.8477465888724,
+              "pre_aim_delta_deg": 20.085438716744804,
+              "spray_deviation": 23.35117450802442,
+              "reaction_time_ms": 314.08369467740044,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 31.378343336702038,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 27.15150424422378,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 459.4062104337946,
+              "pre_aim_delta_deg": 15.735766538715158,
+              "spray_deviation": 20.369522180897043,
+              "reaction_time_ms": 381.17706996005717,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 597.3963337852321,
+              "pre_aim_delta_deg": 23.661207256422532,
+              "spray_deviation": 24.344605444994844,
+              "reaction_time_ms": 340.0537918416782,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 500.59664333609436,
+              "pre_aim_delta_deg": 16.071219705995592,
+              "spray_deviation": 22.120382277096496,
+              "reaction_time_ms": 277.33992696561086,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 17.221763320682168,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 522.401826432733,
+              "pre_aim_delta_deg": 12.994844902967008,
+              "spray_deviation": 27.70252436362573,
+              "reaction_time_ms": 242.18270022344342,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 595.0604949920254,
+              "pre_aim_delta_deg": 23.854234088850426,
+              "spray_deviation": 21.59532353208173,
+              "reaction_time_ms": 513.9718872605633,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 344.82636313449933,
+              "pre_aim_delta_deg": 31.533481466681657,
+              "spray_deviation": 19.787031728370074,
+              "reaction_time_ms": 462.3066368400576,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 18.82828875453944,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 448.8708700095078,
+              "pre_aim_delta_deg": 30.10739204240005,
+              "spray_deviation": 16.64244933155609,
+              "reaction_time_ms": 231.47331122797453,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 23.829381325056286,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 44.57433944495859,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 27.178739316228864,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 425.7877619422552,
+              "pre_aim_delta_deg": 34.453526737032846,
+              "spray_deviation": 13.323441694193464,
+              "reaction_time_ms": 375.7967524372918,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 41.08808565434525,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 592.7114180580738,
+              "pre_aim_delta_deg": 5.50072551875936,
+              "spray_deviation": 17.063269088672378,
+              "reaction_time_ms": 380.36848689327,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 12.889781209074254,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 489.022867059746,
+              "pre_aim_delta_deg": 26.977730582029007,
+              "spray_deviation": 16.80319230583798,
+              "reaction_time_ms": 340.93735169032334,
+              "hit_zone": "legs"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 13.784389139993287,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 15.873509583535435,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 38.17757466539342,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 645.6828541256868,
+              "pre_aim_delta_deg": 24.12765167638667,
+              "spray_deviation": 14.76258980688364,
+              "reaction_time_ms": 300.7772202317889,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 436.38544123204525,
+              "pre_aim_delta_deg": 31.624946842698535,
+              "spray_deviation": 20.1701607535744,
+              "reaction_time_ms": 304.23947041251375,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 515.9976258588176,
+              "pre_aim_delta_deg": 18.706165183153253,
+              "spray_deviation": 20.00210680848054,
+              "reaction_time_ms": 483.40878337906014,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 417.3330179876232,
+              "pre_aim_delta_deg": 17.03467059019125,
+              "spray_deviation": 23.33931280198167,
+              "reaction_time_ms": 481.4039860907142,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 19.217444262213895,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 464.3575277704254,
+              "pre_aim_delta_deg": 31.274728619521213,
+              "spray_deviation": 15.988012265595701,
+              "reaction_time_ms": 374.80507067276716,
+              "hit_zone": "chest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.1333,
+      "kd_ratio": 0.641,
+      "adr": 70.99,
+      "clutch_win_rate": 0.0,
+      "utility_efficiency": 19.65,
+      "rounds": [
+        {
+          "utility_dmg": 11.564248930335156,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 420.865709240844,
+              "pre_aim_delta_deg": 35.477308763530374,
+              "spray_deviation": 16.343092944835384,
+              "reaction_time_ms": 409.5418871433049,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 419.0187634003821,
+              "pre_aim_delta_deg": 17.019889986838365,
+              "spray_deviation": 15.582062705876508,
+              "reaction_time_ms": 487.36268744707985,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 12.056850622077992,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 492.2941315717579,
+              "pre_aim_delta_deg": 35.784359402532196,
+              "spray_deviation": 26.7980051529617,
+              "reaction_time_ms": 250.39599013433434,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 538.4899255420639,
+              "pre_aim_delta_deg": 24.685031170321828,
+              "spray_deviation": 16.790144354835412,
+              "reaction_time_ms": 349.34198888541584,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 16.85183977263657,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 6.684452920248491,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 20.224690570011678,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 10.786455727730058,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 515.9169927269685,
+              "pre_aim_delta_deg": 22.253095918350294,
+              "spray_deviation": 20.76733376417401,
+              "reaction_time_ms": 394.2624316334663,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 396.15407729953426,
+              "pre_aim_delta_deg": 14.215793713726194,
+              "spray_deviation": 18.040961866993644,
+              "reaction_time_ms": 430.74404938425624,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 17.523436320169722,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 434.9353990247998,
+              "pre_aim_delta_deg": 18.24897068804064,
+              "spray_deviation": 18.16763326455843,
+              "reaction_time_ms": 439.2738421598891,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 603.3747304385571,
+              "pre_aim_delta_deg": 26.396283280952268,
+              "spray_deviation": 23.963125166889196,
+              "reaction_time_ms": 392.10322688479783,
+              "hit_zone": "legs"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 30.866057378628916,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 423.0961039638943,
+              "pre_aim_delta_deg": 10.738371629812676,
+              "spray_deviation": 10.16967750548934,
+              "reaction_time_ms": 419.36661816688394,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 13.690269159092177,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 12.372456888918606,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 416.2444510307162,
+              "pre_aim_delta_deg": 28.30887014615346,
+              "spray_deviation": 22.734927988706826,
+              "reaction_time_ms": 432.753079169557,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 508.38562139766975,
+              "pre_aim_delta_deg": 23.88482701939172,
+              "spray_deviation": 14.950894159726591,
+              "reaction_time_ms": 267.75342754657686,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 899.4545121682747,
+              "pre_aim_delta_deg": 6.980362448249279,
+              "spray_deviation": 11.643870079797622,
+              "reaction_time_ms": 315.34380428059694,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 613.5174097685151,
+              "pre_aim_delta_deg": 35.14919592255055,
+              "spray_deviation": 19.897275707850827,
+              "reaction_time_ms": 331.800603793571,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 15.79383191434145,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 470.3145187381478,
+              "pre_aim_delta_deg": 27.735990504493575,
+              "spray_deviation": 12.142147446564556,
+              "reaction_time_ms": 458.20166170031433,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 34.58224481611734,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 19.896599183691883,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 29.20535327104963,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 42.601421477996034,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 589.8941534196003,
+              "pre_aim_delta_deg": 16.910997232724508,
+              "spray_deviation": 25.820144223962366,
+              "reaction_time_ms": 384.5353972335011,
+              "hit_zone": "chest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.1429,
+      "kd_ratio": 0.812,
+      "adr": 74.74,
+      "clutch_win_rate": 0.2222,
+      "utility_efficiency": 14.9,
+      "rounds": [
+        {
+          "utility_dmg": 16.82189033939168,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 328.424453526395,
+              "pre_aim_delta_deg": 27.86416834312399,
+              "spray_deviation": 12.514585972544975,
+              "reaction_time_ms": 474.3426444300706,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 3.5150637087829057,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 434.2928463269254,
+              "pre_aim_delta_deg": 18.643561751988052,
+              "spray_deviation": 9.842927023498396,
+              "reaction_time_ms": 485.0653080202775,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 21.206070873238417,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 563.1787689093791,
+              "pre_aim_delta_deg": 31.37494445673614,
+              "spray_deviation": 14.07804507024304,
+              "reaction_time_ms": 488.50232162331827,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 8.303931385700055,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 23.480029209514555,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 25.500698491744835,
+          "clutch_result": true,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 514.6427794848104,
+              "pre_aim_delta_deg": 6.23901017850816,
+              "spray_deviation": 15.465134733809393,
+              "reaction_time_ms": 300.58761251020184,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 623.5941067530187,
+              "pre_aim_delta_deg": 23.35408158522517,
+              "spray_deviation": 10.738233736041842,
+              "reaction_time_ms": 410.94780442649005,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 21.860659559176884,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 614.3815971531358,
+              "pre_aim_delta_deg": 28.994753999242555,
+              "spray_deviation": 22.812806451088367,
+              "reaction_time_ms": 442.4948217762728,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 473.0341937343035,
+              "pre_aim_delta_deg": 39.093767738142006,
+              "spray_deviation": 16.929636337240556,
+              "reaction_time_ms": 296.7853452089891,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 27.05615664545901,
+          "clutch_result": true,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 364.0838478985459,
+              "pre_aim_delta_deg": 26.123266868122293,
+              "spray_deviation": 19.053943644143896,
+              "reaction_time_ms": 456.32123521741187,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 582.7115602317821,
+              "pre_aim_delta_deg": 10.314042507585674,
+              "spray_deviation": 16.737469315089655,
+              "reaction_time_ms": 425.1343023534849,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 7.6877570598278275,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 25.459510578323197,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 537.1242561743993,
+              "pre_aim_delta_deg": 13.902532451373867,
+              "spray_deviation": 18.67678384259047,
+              "reaction_time_ms": 427.61017384832485,
+              "hit_zone": "legs"
+            },
+            {
+              "ttd_ms": 499.37030612783576,
+              "pre_aim_delta_deg": 21.32907046055276,
+              "spray_deviation": 17.395429379739813,
+              "reaction_time_ms": 471.81248020580824,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 18.407350733222145,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 491.53496502897804,
+              "pre_aim_delta_deg": 42.917198039824015,
+              "spray_deviation": 11.080901168973941,
+              "reaction_time_ms": 361.91608198550193,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 24.230291661983447,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 333.1706916659999,
+              "pre_aim_delta_deg": 16.574813043766724,
+              "spray_deviation": 11.502433890418619,
+              "reaction_time_ms": 375.7146852832692,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 623.8571090959999,
+              "pre_aim_delta_deg": 18.640650588744162,
+              "spray_deviation": 14.062251781600425,
+              "reaction_time_ms": 457.5864480278716,
+              "hit_zone": "chest"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.1176,
+      "kd_ratio": 0.496,
+      "adr": 90.25,
+      "clutch_win_rate": 0.0,
+      "utility_efficiency": 18.54,
+      "rounds": [
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 688.0934412147998,
+              "pre_aim_delta_deg": 18.866913823036384,
+              "spray_deviation": 16.79941233559541,
+              "reaction_time_ms": 449.58829122258675,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 551.8562180237763,
+              "pre_aim_delta_deg": 21.34086531319541,
+              "spray_deviation": 14.61418579369021,
+              "reaction_time_ms": 347.6985768623439,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 36.24772369265586,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 532.5141096909169,
+              "pre_aim_delta_deg": 36.63516690868975,
+              "spray_deviation": 22.141414853668067,
+              "reaction_time_ms": 532.5273956040824,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 13.243213001262134,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 378.82560156578916,
+              "pre_aim_delta_deg": 18.982901130484937,
+              "spray_deviation": 17.23003991235722,
+              "reaction_time_ms": 401.0468733977349,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 205.72367824389943,
+              "pre_aim_delta_deg": 12.601466358260799,
+              "spray_deviation": 18.290863590112036,
+              "reaction_time_ms": 336.26993746462546,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 649.3744225440005,
+              "pre_aim_delta_deg": 13.15064153836879,
+              "spray_deviation": 9.274062889603032,
+              "reaction_time_ms": 419.4190031485873,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 488.1533052591887,
+              "pre_aim_delta_deg": 12.831146493170113,
+              "spray_deviation": 20.226440104224675,
+              "reaction_time_ms": 332.3046059733124,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 8.098541778497935,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 517.595097278232,
+              "pre_aim_delta_deg": 15.30653435575016,
+              "spray_deviation": 19.02653204711448,
+              "reaction_time_ms": 253.65478605758085,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 16.05761636682075,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 38.953054886834984,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 24.304754620084655,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 24.703758131596246,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 477.07096006165415,
+              "pre_aim_delta_deg": 9.252441337996641,
+              "spray_deviation": 21.16601584121671,
+              "reaction_time_ms": 366.2098983840604,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 442.31413732078744,
+              "pre_aim_delta_deg": 10.448979622587167,
+              "spray_deviation": 14.40805292362371,
+              "reaction_time_ms": 247.41255403390716,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 591.2168001201912,
+              "pre_aim_delta_deg": 25.95477062504861,
+              "spray_deviation": 24.484945165031768,
+              "reaction_time_ms": 328.76545468590075,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 36.76403155934034,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 532.186255926561,
+              "pre_aim_delta_deg": 10.065743746813178,
+              "spray_deviation": 19.12356549297149,
+              "reaction_time_ms": 364.451565800615,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 680.1061174915567,
+              "pre_aim_delta_deg": 25.01916139766014,
+              "spray_deviation": 16.753040569091407,
+              "reaction_time_ms": 435.4001127517928,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 13.626564664626718,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 18.00257731899413,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 19.27891827824848,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 19.55566451365622,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 625.4706703160186,
+              "pre_aim_delta_deg": 15.42390762390815,
+              "spray_deviation": 14.400502741125548,
+              "reaction_time_ms": 363.1336307525514,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 565.9254440808911,
+              "pre_aim_delta_deg": 18.732286502454283,
+              "spray_deviation": 16.536723832459696,
+              "reaction_time_ms": 452.6472203039697,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 9.209245853273888,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 475.69731362576897,
+              "pre_aim_delta_deg": 16.225767560061442,
+              "spray_deviation": 13.018587648862377,
+              "reaction_time_ms": 439.2106757705422,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 498.65247891025126,
+              "pre_aim_delta_deg": 15.749187492127056,
+              "spray_deviation": 13.009243394331147,
+              "reaction_time_ms": 285.54919468303,
+              "hit_zone": "stomach"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.1765,
+      "kd_ratio": 1.589,
+      "adr": 72.12,
+      "clutch_win_rate": 0.0,
+      "utility_efficiency": 19.11,
+      "rounds": [
+        {
+          "utility_dmg": 17.62211095794661,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 577.79448694987,
+              "pre_aim_delta_deg": 20.334219403490803,
+              "spray_deviation": 14.419095138689041,
+              "reaction_time_ms": 271.0440255584284,
+              "hit_zone": "legs"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 555.8554832501976,
+              "pre_aim_delta_deg": 12.645460855444709,
+              "spray_deviation": 9.267182146704364,
+              "reaction_time_ms": 278.41392725484127,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 326.0484715349105,
+              "pre_aim_delta_deg": 24.249330635891567,
+              "spray_deviation": 15.716444447203934,
+              "reaction_time_ms": 370.7526690143667,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 30.253487316425947,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 29.053606138599886,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 477.42715009305294,
+              "pre_aim_delta_deg": 14.136833347564894,
+              "spray_deviation": 16.366981911373244,
+              "reaction_time_ms": 538.9919771277697,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 469.5293265889551,
+              "pre_aim_delta_deg": 13.10866404013237,
+              "spray_deviation": 14.503688918383856,
+              "reaction_time_ms": 486.07172238532604,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 392.0581895992181,
+              "pre_aim_delta_deg": 6.418488123713033,
+              "spray_deviation": 15.033123714151053,
+              "reaction_time_ms": 366.26658725149565,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 29.71076481983947,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 467.9147444270435,
+              "pre_aim_delta_deg": 34.66967036297315,
+              "spray_deviation": 28.28481341391131,
+              "reaction_time_ms": 369.235854232594,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 512.7635685384826,
+              "pre_aim_delta_deg": 24.335038799419664,
+              "spray_deviation": 20.79405850403323,
+              "reaction_time_ms": 346.3648465946978,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 563.5007477353337,
+              "pre_aim_delta_deg": 19.40088322440301,
+              "spray_deviation": 19.38912183103855,
+              "reaction_time_ms": 447.8577179816142,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 18.598312238706857,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 28.894244533775563,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 31.622780761534123,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 508.56165613751966,
+              "pre_aim_delta_deg": 14.792741963509865,
+              "spray_deviation": 6.4642057919114535,
+              "reaction_time_ms": 437.38421875611317,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 25.744849778131332,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 9.937301738108188,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 500.0783959190252,
+              "pre_aim_delta_deg": 24.229997614681828,
+              "spray_deviation": 15.190828918540177,
+              "reaction_time_ms": 464.1907658200277,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 492.58200104232435,
+              "pre_aim_delta_deg": 13.827365312564826,
+              "spray_deviation": 17.707512739966997,
+              "reaction_time_ms": 475.90002692467067,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 449.9118424115162,
+              "pre_aim_delta_deg": 27.570491562569313,
+              "spray_deviation": 30.6801028674929,
+              "reaction_time_ms": 347.5342320815229,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 3.991187996461097,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 38.44863986433031,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 521.8836984936354,
+              "pre_aim_delta_deg": 21.163074641055655,
+              "spray_deviation": 21.712200956378737,
+              "reaction_time_ms": 267.2650992054396,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 540.8384044002298,
+              "pre_aim_delta_deg": 29.772721951152004,
+              "spray_deviation": 18.938947441884466,
+              "reaction_time_ms": 193.8809465417614,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 7.479194887491467,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 588.9210947111934,
+              "pre_aim_delta_deg": 13.358426238629809,
+              "spray_deviation": 11.289727944627868,
+              "reaction_time_ms": 271.4020951412399,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 564.1928179955481,
+              "pre_aim_delta_deg": 27.695008093516556,
+              "spray_deviation": 17.880175511937384,
+              "reaction_time_ms": 270.03516184002103,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 15.223383305574014,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        }
+      ]
+    },
+    {
+      "hs_rate": 0.1905,
+      "kd_ratio": 0.823,
+      "adr": 35.96,
+      "clutch_win_rate": 0.1429,
+      "utility_efficiency": 16.6,
+      "rounds": [
+        {
+          "utility_dmg": 28.26542356842213,
+          "clutch_result": true,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 562.2590669044428,
+              "pre_aim_delta_deg": 21.388805566719505,
+              "spray_deviation": 9.958787485034598,
+              "reaction_time_ms": 296.35601679168053,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 40.26420352555983,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 8.854155278100324,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 497.7641146284674,
+              "pre_aim_delta_deg": 17.699850719277133,
+              "spray_deviation": 27.115265470615697,
+              "reaction_time_ms": 343.2181607640168,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 325.51491421876864,
+              "pre_aim_delta_deg": 21.811221876493786,
+              "spray_deviation": 15.034851734660553,
+              "reaction_time_ms": 308.985446768747,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 568.7253114542175,
+              "pre_aim_delta_deg": 17.63852021665467,
+              "spray_deviation": 25.868296925243584,
+              "reaction_time_ms": 495.86718969572047,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 10.681136804210235,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 426.3247844794071,
+              "pre_aim_delta_deg": 14.42948088888084,
+              "spray_deviation": 22.678159796012878,
+              "reaction_time_ms": 488.81970431338925,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 11.258129083087535,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 687.585901270968,
+              "pre_aim_delta_deg": 22.333544091633243,
+              "spray_deviation": 21.353413806131282,
+              "reaction_time_ms": 391.57912072402735,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 422.56605550398575,
+              "pre_aim_delta_deg": 24.888496855267242,
+              "spray_deviation": 19.723413222852383,
+              "reaction_time_ms": 249.1703677109628,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 545.2152124086917,
+              "pre_aim_delta_deg": 6.403475034054109,
+              "spray_deviation": 31.03617146246015,
+              "reaction_time_ms": 348.8020855093675,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 1.1053778569451076,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 636.9873435945008,
+              "pre_aim_delta_deg": 19.69195243263342,
+              "spray_deviation": 14.339906562339214,
+              "reaction_time_ms": 343.11638942293877,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 636.0520763892016,
+              "pre_aim_delta_deg": 30.531254907858255,
+              "spray_deviation": 13.261105701552225,
+              "reaction_time_ms": 523.8613713356625,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 452.63803984057586,
+              "pre_aim_delta_deg": 18.404142328896032,
+              "spray_deviation": 15.640781315276255,
+              "reaction_time_ms": 282.70988056050567,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 471.7304963190782,
+              "pre_aim_delta_deg": 10.345787765123148,
+              "spray_deviation": 7.3173272741855495,
+              "reaction_time_ms": 319.297557589647,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 34.8419393023467,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 477.23838356241754,
+              "pre_aim_delta_deg": 17.554702654646285,
+              "spray_deviation": 18.15320379800693,
+              "reaction_time_ms": 500.8645173003584,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 0.0,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 527.8743077577724,
+              "pre_aim_delta_deg": 28.412215930045583,
+              "spray_deviation": 30.23799499186638,
+              "reaction_time_ms": 343.588699444202,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 444.00205947912485,
+              "pre_aim_delta_deg": 13.553128054280005,
+              "spray_deviation": 19.289623292198147,
+              "reaction_time_ms": 351.8189599576159,
+              "hit_zone": "stomach"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 25.750129603590164,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 256.2757075776884,
+              "pre_aim_delta_deg": 20.600763331782044,
+              "spray_deviation": 17.514146625314186,
+              "reaction_time_ms": 404.61335710765263,
+              "hit_zone": "chest"
+            },
+            {
+              "ttd_ms": 316.87316798142984,
+              "pre_aim_delta_deg": 16.72479378623048,
+              "spray_deviation": 26.804815372356618,
+              "reaction_time_ms": 605.8375053146721,
+              "hit_zone": "head"
+            },
+            {
+              "ttd_ms": 533.7509081232777,
+              "pre_aim_delta_deg": 21.274661235340442,
+              "spray_deviation": 19.568667059349114,
+              "reaction_time_ms": 294.13385716714185,
+              "hit_zone": "legs"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 40.727482604518784,
+          "clutch_result": true,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 2.9262809082618357,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": [
+            {
+              "ttd_ms": 454.84522443106516,
+              "pre_aim_delta_deg": 14.557672527450055,
+              "spray_deviation": 4.744633122108706,
+              "reaction_time_ms": 475.07424964033885,
+              "hit_zone": "stomach"
+            },
+            {
+              "ttd_ms": 433.8200825427556,
+              "pre_aim_delta_deg": 37.57165633982879,
+              "spray_deviation": 20.070947237816892,
+              "reaction_time_ms": 461.0474857929503,
+              "hit_zone": "chest"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 18.325264512739977,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 1.0401437599208307,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": [
+            {
+              "ttd_ms": 373.2151617596312,
+              "pre_aim_delta_deg": 24.08504407288966,
+              "spray_deviation": 20.249231927492044,
+              "reaction_time_ms": 346.0664213488588,
+              "hit_zone": "head"
+            }
+          ]
+        },
+        {
+          "utility_dmg": 6.383119582351327,
+          "clutch_result": false,
+          "opening_duel": false,
+          "kill_events": []
+        },
+        {
+          "utility_dmg": 18.51770218052302,
+          "clutch_result": false,
+          "opening_duel": true,
+          "kill_events": []
+        }
+      ]
+    }
+  ]
+}
