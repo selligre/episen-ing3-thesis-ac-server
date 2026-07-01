@@ -61,8 +61,7 @@ def _sample_hit_zone(rng: np.random.Generator, profile: str) -> str:
 # Kill event generation
 # ---------------------------------------------------------------------------
 
-def _generate_kill_event(rng: np.random.Generator, profile: str) -> KillEvent:
-    dist = PROFILE_DISTRIBUTIONS[profile]
+def _generate_kill_event(rng: np.random.Generator, profile: str, dist: dict) -> KillEvent:
     return KillEvent(
         ttd_ms=_sample(rng, dist["ttd_ms"]),
         pre_aim_delta_deg=_sample(rng, dist["pre_aim_delta_deg"]),
@@ -76,19 +75,18 @@ def _generate_kill_event(rng: np.random.Generator, profile: str) -> KillEvent:
 # Round generation
 # ---------------------------------------------------------------------------
 
-def _generate_round(rng: np.random.Generator, profile: str) -> Round:
-    dist = PROFILE_DISTRIBUTIONS[profile]
+def _generate_round(rng: np.random.Generator, profile: str, dist: dict) -> Round:
     cfg  = SIMULATION_CONFIG
 
     # Number of kills this round follows a Poisson distribution
     n_kills = int(rng.poisson(cfg["kills_per_round_mean"]))
 
-    kill_events = [_generate_kill_event(rng, profile) for _ in range(n_kills)]
+    kill_events = [_generate_kill_event(rng, profile, dist) for _ in range(n_kills)]
 
     return Round(
         kill_events=kill_events,
         utility_dmg=_sample(rng, dist["utility_dmg"]),
-        # clutch and opening duel are Bernoulli-sampled from profile means
+        # clutch and opening duel are Bernoulli-sampled from player means
         clutch_result=bool(rng.random() < dist["clutch_win_rate"][0]),
         opening_duel=bool(rng.random() < 0.30),   # uniform across profiles
     )
@@ -98,9 +96,9 @@ def _generate_round(rng: np.random.Generator, profile: str) -> Round:
 # Session generation
 # ---------------------------------------------------------------------------
 
-def _generate_session(rng: np.random.Generator, profile: str) -> Session:
+def _generate_session(rng: np.random.Generator, profile: str, dist: dict) -> Session:
     cfg = SIMULATION_CONFIG
-    rounds = [_generate_round(rng, profile) for _ in range(cfg["rounds_per_session"])]
+    rounds = [_generate_round(rng, profile, dist) for _ in range(cfg["rounds_per_session"])]
 
     # --- Compute session-level aggregates from generated rounds ---
     all_kills = [k for r in rounds for k in r.kill_events]
@@ -110,7 +108,6 @@ def _generate_session(rng: np.random.Generator, profile: str) -> Session:
     hs_count   = sum(1 for k in all_kills if k.hit_zone == "head")
     hs_rate    = hs_count / n_kills if n_kills > 0 else 0.0
 
-    dist = PROFILE_DISTRIBUTIONS[profile]
     kd_ratio = _sample(rng, dist["kd_ratio"])
     adr      = _sample(rng, dist["adr"])
 
@@ -138,8 +135,18 @@ def _generate_player(player_id: str, profile: str, seed: int) -> Player:
     rng = np.random.default_rng(seed)
     cfg = SIMULATION_CONFIG
 
+    # ponytail: generate player-specific mean offsets to create a natural spread between individual players
+    # This prevents all players of the same profile from having identical session averages.
+    player_dist = {}
+    for feat, dist_tuple in PROFILE_DISTRIBUTIONS[profile].items():
+        mean, std, lo, hi = dist_tuple
+        # We sample a player-specific mean around the profile mean using std / 2 as the variance.
+        p_mean = float(rng.normal(mean, std / 2.0))
+        p_mean = max(lo, min(hi, p_mean))
+        player_dist[feat] = (p_mean, std, lo, hi)
+
     sessions = [
-        _generate_session(rng, profile)
+        _generate_session(rng, profile, player_dist)
         for _ in range(cfg["sessions_per_player"])
     ]
 

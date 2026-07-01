@@ -31,7 +31,7 @@ from models.player import Player
 # Configuration
 # ---------------------------------------------------------------------------
 
-SUSPICION_THRESHOLD = 70.0  # score above which a player is "flagged"
+SUSPICION_THRESHOLD = 48.0  # score above which a player is "flagged"
 
 RESULTS_PATH = os.path.join(
     os.path.dirname(__file__), "..", "data", "benchmark_results.json"
@@ -105,7 +105,7 @@ def run_benchmark(players: List[Player]) -> Dict:
     for p in players:
         if p.suspicion_score >= SUSPICION_THRESHOLD:
             y_pred_3class.append("cheater")
-        elif p.suspicion_score >= 20.0:
+        elif p.suspicion_score >= 12.0:
             y_pred_3class.append("skilled")
         else:
             y_pred_3class.append("casual")
